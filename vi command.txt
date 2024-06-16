@@ -1,0 +1,77 @@
+Touch 
+==============
+We can create an empty filke as well we can modify the time stamp of a file
+touch vinay
+touch -a -m -t "yyyymmddhhmm.ss" filename
+
+=================================================
+concatenation:
+
+cat filename
+cat > filename
+cat >> filename
+
+cat filename1 > filename2
+cat filename1 filename2 > filename3
+
+
+cat filename1 >> filename2
+cat filename1 filename2 >> filename3
+==================================================================
+Hello Vinay
+Three modes
+command mode
+Insert mode
+replacement mode
+
+
+Commnand mode
+=========================================
+If the cursor is at the starting of the line To move the cursor to the end of the line:  ctrl+$
+If the cursor is at the end  of the line To move the cursor to the starting of the line:  0 zero
+If the cursor is at the starting page  of the line To move the cursor to the end of  the page line:  G
+If the cursor is at the ending page  of the line To move the cursor to the starting of  the page line: gg 
+
+1. To delete a line == dd
+2. To delete multiple lines ndd == 1dd 2dd 3dd
+3. To delete a word == dw
+4. To delete a charecter == x or delete
+5. To copy a line == yy
+6. To copy n lines == nyy
+7. To paste the copy line we have to options
+   1. p
+   2. P
+8. to search a word == /word or ?word
+9. To Replace a word == :%s/oldWord/newword/g
+  s = substitute
+  g = globally
+10: Undo : u 
+
+:set nu
+:set nonu
+======================================================
+
+Insert mode
+i : insert mode
+a : append it will allow you into insert after the cursor position.
+o It will create an empty line below thye cursor and enters into insert mode
+O It will craete an empty line above the cursor and enters into insert mode
+===================================================================================
+Insert ==> command mode
+esc
+:q and :q!: without saving exit and without saving forcefully exit.
+:w and :w!: save and forcefully save.
+:wq and :wq! : save exit and forcefully save exit.
+
+
+=========================================================================================
+
+
+
+
+
+
+
+
+
+
